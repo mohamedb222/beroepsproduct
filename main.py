@@ -4,7 +4,7 @@ import datetime
 #hier wordt het bericht gevraagd
 bericht = input('wat is uw bericht? ')
 while len(bericht) >= 140:
-    print('bericht is te lang')
+    bericht = input('Bericht is te lang, probeer het opnieuw.')
 datum = datetime.datetime.now()
 #hier wordt de naam gevraagd
 naam = input('wat is uw naam? ')
